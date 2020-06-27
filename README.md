@@ -1,4 +1,4 @@
-# digital_curation_tool
+# Reddit Topic Modeling
 
 The “Source Code” folder contains all of the files used in the Reddit data analysis project. The “Comments,” once unzipped, includes a number of JSON files (one for each subreddit) containing the raw comment data from specific subreddits. 
 
