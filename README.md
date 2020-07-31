@@ -5,7 +5,7 @@ The “Source Code” folder contains all of the files used in the Reddit data a
 ## Main files:
 ### pushshift_api.py
 This script is used to download the comments from individual subreddits 
-Please refer here for additional Pushshift.io documenation: 
+Please refer here for additional Pushshift.io documentation:
 https://docs.google.com/document/d/171VdjT-QKJi6ul9xYJ4kmiHeC7t_3G31Ce8eozKp3VQ/edit
 
 ### preprocesssing.py
