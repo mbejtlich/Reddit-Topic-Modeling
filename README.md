@@ -2,14 +2,16 @@
 
 The “Source Code” folder contains all of the files used in the Reddit data analysis project. The “Comments,” once unzipped, includes a number of JSON files (one for each subreddit) containing the raw comment data from specific subreddits. 
 
-# Main files:
-## pushshift_api.py
+### Main files:
+pushshift_api.py
 This script is used to download the comments from individual subreddits 
 Please refer here for additional Pushshift.io documenation: 
 https://docs.google.com/document/d/171VdjT-QKJi6ul9xYJ4kmiHeC7t_3G31Ce8eozKp3VQ/edit
-## preprocesssing.py
+
+preprocesssing.py
 Loads in a number of JSON files from the “Comments” directory and returns a single cleaned and formatted CSV file, “reddot_comments_processed.csv.” During this step, we remove emojis and urls from the body text, extracting the data into two additional new columns.
-## Topic Modeling.ipynb
+
+Topic Modeling.ipynb
 This is a jupyter notebook file used for topic modeling. spaCy and Gensim are used in this exploration. The “reddit_comments_processed.csv” is loaded into this file. The end result of this topic modeling a fit LDA model using Gensim and a visual created in pyLDAvis, showing the terms belonging to each topic.
 
 # Supporting files:
